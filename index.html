@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylers/style.css">
+    <link rel="stylesheet" href="/stylers/main.css">
+    <link rel="stylesheet" href="/stylers/reset.css">
+    <link rel="stylesheet" href="/stylers/index.css">
+    <title>Decodificador - ONE</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+</head>
+<body>
+    <header>
+        <img class="logo_alura" src="./assit/logo_alura.png" alt="Logo Alura">
+    </header>
+    
+    <main>
+        <section>
+            <div class="textos">
+                <textarea class="start__texto" maxlength="1000" placeholder="Digite seu texto"></textarea>
+            </div>            
+            <div class="alerta__texto">
+                <img src="assit/!.png">
+                <a>Apenas letras minúsculas e sem acento.</a>
+            </div>
+            <div class="buttons">
+                <button class="buttons__Encrypt" type="button" onclick="Encrypt()">Criptografar</button>
+                <button class="buttons__Decrypt" type="button" onclick="Decrypt()">Descriptografar</button>
+            </div>
+        </section>
+
+        <aside class="resultado">
+            <div class="resultado__mensage">
+                <img class="resultado__image" src="assit/pessoa.jpg">
+                <h3 class="resultado__mensage__first">Nenhuma mensagem encontrada</h3>
+                <p class="resultado__mensage__second">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+
+            <div class="resultado__final">
+                <textarea class="resultado__challenge"></textarea>
+                <button class="resultado__copy">Copiar</button>
+            </div>
+        </aside>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__content">
+          <div class="footer__name">Desenvolvido por Raul Ventura</div>
+          <div class="footer__social">
+            <a href="https://github.com/raulventura04" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/raul-ventura-6502a8234/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/raulventura01/" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

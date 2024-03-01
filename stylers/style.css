@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    background: var(--cor-primaria);
+    font-family: var(--fonte-principal);
+    padding-bottom: 3rem;
+  }
+  
+.logo_alura {
+    position: fixed;
+    width: 120px;
+    height: 48px;
+    margin-top: 1%;
+}
+
+main {
+    display: flex;
+    padding: 2% 0 2% 0;
+    margin-left: 250px;
+    gap: 5%;
+}   
+
+.start__texto {
+    border: 0 transparent;
+    border-radius: 10px;
+    resize: none;
+    font-family: 'Inter', sans-serif;
+    color: #0A3871;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    width: 680px;
+    height: 400px;
+}
+
+::placeholder { color: #0A3871; }
+
+.start__texto:focus {
+    outline: none;
+}
+
+.alerta__texto {
+    display: flex;
+    text-align: center;
+    margin-top: 9px;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    gap: 8px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 17px;
+    gap: 24px;
+}
+
+.buttons__Encrypt {
+    color: #FFFFFF;
+    background: #0A3871;
+    border-color: #0A3871;
+    border-radius: 20px;
+    width: 40%;
+    height: 60px;
+    padding: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 350;
+    line-height: 19.36px;
+    align-items: center;
+}
+
+.buttons__Decrypt {
+    color: #0A3871;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 20px;
+    width: 40%;
+    height: 60px;
+    padding: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 350;
+    line-height: 19.36px;
+    align-items: center;
+}
+
+.resultado {
+    display: flex;
+    width: 350px;
+    height: 500px;
+    top: 40px;
+    left: 1000px;
+    border-radius: 10px;
+    background: #FFFFFF;
+}
+
+.resultado__mensage {
+    background: none;
+    width: 336px;
+    height: 122px;
+    top: 619px;
+    left: 1032px;
+    gap: 16px;
+    text-align: center;
+}
+
+.resultado__image {
+    background: none;
+    width: 336px;
+    height: 304px;
+    top: 283px;
+    left: 1032px;
+    border-radius: 15px;
+}
+
+.resultado__mensage__first {
+    background: none;
+    width: 336px;
+    height: 58px;
+    font-family: 'Inter', sans-serif;
+    color: #343A40;
+    font-size: 24px;
+    line-height: 28.8px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.resultado__mensage__second {
+    background: none;
+    width: 336px;
+    height: 48px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    width: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.resultado__final {
+    display: none;
+    width: 400px;
+    height: 500px;
+    top: 40px;
+    left: 1000px;
+    border-radius: 32px;
+    background: #FFFFFF;
+    resize: none; 
+}
+
+.resultado__challenge {
+    background: #FFFFFF;
+    border: 0 transparent;
+    resize: none;
+    border-radius: 15px;
+    width: 80%;
+    height: 85%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #495057;
+    gap: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultado__copy {
+    background: #FFFFFF;
+    width: 40%;
+    border-radius: 15px;
+    border: 1px solid #0A3871;
+    padding: 15px;
+    gap: 8px;
+    color: #0A3871;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 19.6px;
+    margin: 10px 107px 10px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #3a3e42;
+    padding: 0;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__name {
+    font-size: 1.2rem;
+    margin-right: 20px;
+}
+
+.footer__social {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__social a {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.footer__social a:hover {
+    color: #fcfcfc;
+}

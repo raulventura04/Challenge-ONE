@@ -1,0 +1,124 @@
+@media screen and (max-width: 1174px) {
+    header {
+        display: block;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        margin-left: 1.3rem;
+        gap: 5%;
+    }
+
+    .logo_alura {
+        position: relative;
+    }
+
+    .start__texto {
+        display: block;
+        padding: 1.4rem;
+        width: 78%;
+        margin: auto;
+    }
+
+    .resultado {
+        width: 75%;
+        max-width: 600px;
+        height: 100%;
+        border-radius: 20px;
+        padding: 2rem;
+        gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: large;
+        margin: auto;
+    }
+    
+    .resultado__final {
+        display: none;
+        width: 75%;
+        max-width: 400px; 
+        height: 500px;
+        border-radius: 20px; 
+        background: #FFFFFF;
+        resize: none;
+        margin: auto;
+        gap: 2rem; 
+    }
+    
+    .resultado__challenge {
+        background: #FFFFFF;
+        border: 0 transparent;
+        resize: none;
+        border-radius: 20px; 
+        width: 100%;
+        height: 82%;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        color: #495057;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .resultado__copy {
+        background: #FFFFFF;
+        border-radius: 20px; 
+        border: 1px solid #0A3871;
+        padding: 2rem;
+        gap: 8px;
+        color: #0A3871;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        line-height: 19.6px;
+        width: 100%; 
+        margin: auto; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .resultado__image {
+        display: none;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+
+    .buttons__Encrypt,
+    .buttons__Decrypt {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: auto;
+        margin: auto; 
+    }
+
+    .buttons__Encrypt,
+    .buttons__Decrypt {
+        width: auto;
+    }
+}
+
